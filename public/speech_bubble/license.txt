@@ -1,0 +1,11 @@
+Model Information:
+* title:	Speech Bubble
+* source:	https://sketchfab.com/3d-models/speech-bubble-f6d33d524fee4da2a4715b39b9185d48
+* author:	Isabel.Tan (https://sketchfab.com/Isabel.Tan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Speech Bubble" (https://sketchfab.com/3d-models/speech-bubble-f6d33d524fee4da2a4715b39b9185d48) by Isabel.Tan (https://sketchfab.com/Isabel.Tan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
