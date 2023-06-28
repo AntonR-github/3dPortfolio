@@ -147,7 +147,7 @@ import {
       ],
       image: cowbank,
       source_code_link: "https://github.com/AntonR-github/CowBank",
-      live_demo_link: "https://cowbank.netlify.app/",
+      live_demo_link: "https://cowbank-antonr.netlify.app/",
     },
     {
       name: "EShop Admin Dashboard",
