@@ -24,6 +24,7 @@ import {
     eshop,
     weather,
     fighting,
+    cowbank,
   } from "../assets";
   
   export const navLinks = [
@@ -126,6 +127,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "CowBank",
+      description:
+        "Banking App - A beautiful banking app created using React.js Tailwind CSS and Figma .",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cowbank,
+      source_code_link: "https://github.com/AntonR-github/CowBank",
+      live_demo_link: "https://cowbank.netlify.app/",
+    },
     {
       name: "EShop Admin Dashboard",
       description:
@@ -278,7 +301,7 @@ import {
       ],
       image: portfolio2,
       source_code_link: "https://github.com/AntonR-github/Personal-portfolio",
-      live_demo_link: "https://antonr-portfolio.netlify.app/",
+      live_demo_link: "https://antonr-portfolio2.netlify.app/",
     },
     {
       name: "Calculator App",

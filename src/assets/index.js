@@ -28,6 +28,7 @@ import eshop from "./eshop.jpg";
 import weather from "./weather.jpg";
 import fighting from "./fighting.webp";
 import github from "./github.png";
+import cowbank from "./cowbank.png";
 
 export {
   demo,
@@ -60,4 +61,5 @@ export {
   weather,
   fighting,
   github,
+  cowbank
 };
