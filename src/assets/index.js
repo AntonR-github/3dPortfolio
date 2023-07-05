@@ -18,19 +18,20 @@ import demo from "./demo.png";
 import dashboard from "./dashboard.png";
 import autumn from "./autumn.jpg";
 import api2 from "./api.png";
-import gym from "./gym.png";
+import gym from "./gym.jpg";
 import dashboard2 from "./dashboard2.png";
-import portfolio from "./portfolio.jpg";
 import portfolio2 from "./portfolio2.png";
 import calculator from "./calculator.png";
 import tictactoe from "./tictactoe.png";
-import eshop from "./eshop.jpg";
 import weather from "./weather.jpg";
 import fighting from "./fighting.webp";
 import github from "./github.png";
 import cowbank from "./cowbank.jpg";
+import food2 from "./food2.jpg";
+import ocean from './ocean.jpg'
 
 export {
+  food2,
   demo,
   logo,
   backend,
@@ -53,13 +54,12 @@ export {
   api2,
   gym,
   dashboard2,
-  portfolio,
   portfolio2,
   calculator,
   tictactoe,
-  eshop,
   weather,
   fighting,
   github,
-  cowbank
+  cowbank,
+  ocean
 };

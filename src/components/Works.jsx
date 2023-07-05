@@ -41,17 +41,17 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-2/2 h-2/2 object-contain'
               />
             </div>
             <div
               onClick={() => window.open(live_demo_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer m-1 hover:scale-110 transform transition'
+              className='black-gradient w-11 h-11 rounded-full flex justify-center items-center cursor-pointer m-1 hover:scale-110 transform transition'
             >
               <img
                 src={demo}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-2/2 h-2/2 object-contain'
               />
             </div>
           </div>

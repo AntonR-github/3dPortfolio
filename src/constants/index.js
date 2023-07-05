@@ -1,4 +1,5 @@
 import {
+    food2,
     backend,
     web,
     javascript,
@@ -17,14 +18,14 @@ import {
     api2,
     gym,
     dashboard2,
-    portfolio,
     portfolio2,
     calculator,
     tictactoe,
-    eshop,
     weather,
     fighting,
     cowbank,
+    ocean,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -128,53 +129,9 @@ import {
   
   const projects = [
     {
-      name: "CowBank",
+      name: "ECommerce App",
       description:
-        "Banking App - A beautiful banking app created using React.js Tailwind CSS and Figma .",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: cowbank,
-      source_code_link: "https://github.com/AntonR-github/CowBank",
-      live_demo_link: "https://cowbank-antonr.netlify.app/",
-    },
-    {
-      name: "EShop Admin Dashboard",
-      description:
-        "Admin Dashboard - Fullstack ECommerce app using MERN stack, providing a convenient and efficient solutions for managing an online shop.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: dashboard,
-      source_code_link: "https://github.com/AntonR-github/Eshop2-Dashboard",
-      live_demo_link: "https://eshop2-dashboard.onrender.com/",
-    },
-    {
-      name: "EShop Client Side",
-      description:
-        "Client Side - Fullstack ECommerce app using MERN stack, enabling users to browse and purchase products online.",
+        "Fullstack ECommerce app using MERN stack, enabling users to browse and purchase products online. The app also provides a convenient and efficient admin dashboard for managing an online shop.",
       tags: [
         {
           name: "javascript",
@@ -193,17 +150,17 @@ import {
       source_code_link: "https://github.com/AntonR-github/Eshop2-Client",
       live_demo_link: "https://eshop2.onrender.com/",
     },
-    {
-      name: "EShop Server Side",
+      {
+      name: "Food Shop App",
       description:
-        "Server Side - Node.js server for EShop app, using MongoDB to store data (only GitHub Code).",
+        "Fullstack Food Shop app using MEAN stack, enabling users order food online, integrated with Google Maps API and paypal payment system.",
       tags: [
         {
-          name: "javascript",
+          name: "typescript",
           color: "blue-text-gradient",
         },
         {
-          name: "node.js",
+          name: "angular",
           color: "green-text-gradient",
         },
         {
@@ -211,31 +168,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: api2,
-      source_code_link: "https://github.com/AntonR-github/Eshop2-API",
-      live_demo_link: "",
-    },
-    {
-      name: "Fitness Website",
-      description:
-        "Frontend app for a fitness website, using React Typescript, Vite, Framer Motion and Tailwind CSS to create a modern and responsive website.",
-      tags: [
-        {
-          name: "typescript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: gym,
-      source_code_link: "https://github.com/AntonR-github/GymWebsite",
-      live_demo_link: "https://gymwebsite-aad.pages.dev/",
+      image: food2,
+      source_code_link: "https://github.com/AntonR-github/FoodShop2",
+      live_demo_link: "https://foodshop-tmv0.onrender.com/",
     },
     {
       name: "Admin Dashboard",
@@ -260,9 +195,9 @@ import {
       live_demo_link: "https://antonr-dashboard.netlify.app/",
     },
     {
-      name: "Portfolio App",
+      name: "Fitness Website",
       description:
-        "Portfolio App to showcase projects, Created using React Typescript, MySQL database and Socket.IO (Github code only) .",
+        "Frontend app for a fitness website, using React Typescript, Vite, Framer Motion and Tailwind CSS to create a modern and responsive website.",
       tags: [
         {
           name: "typescript",
@@ -273,13 +208,101 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "MySQL",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: portfolio,
-      source_code_link: "https://github.com/AntonR-github/Portfolio---GitHub",
-      live_demo_link: "",
+      image: gym,
+      source_code_link: "https://github.com/AntonR-github/GymWebsite",
+      live_demo_link: "https://gymwebsite-aad.pages.dev/",
+    },
+    {
+      name: "CowBank",
+      description:
+        "Banking App - A beautiful banking app landing page created using React.js Tailwind CSS and Figma .",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cowbank,
+      source_code_link: "https://github.com/AntonR-github/CowBank",
+      live_demo_link: "https://cowbank-antonr.netlify.app/",
+    },
+    {
+      name: "Weather App",
+      description:
+        "Weather App created using Angular Typescript, OpenWeatherMap API",
+      tags: [
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "angular",
+          color: "green-text-gradient",
+        },
+        {
+          name: "api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weather,
+      source_code_link: "https://github.com/AntonR-github/Weather-App",
+      live_demo_link: "https://weather-app-by-antonr.web.app/",
+    },
+    {
+      name: "Save The Ocean",
+      description:
+        "A beautiful crowdfunding website landing page inspired by - #SaveTheOcean Team",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ocean,
+      source_code_link: "https://github.com/AntonR-github/SaveTheOceanJS",
+      live_demo_link: "https://save-the-ocean-ar.netlify.app/",
+    },
+    {
+      name: "Fighting Game",
+      description:
+        "Javascript Retro Style Fighting Game Using HTML Canvas and Animation Sprites",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fighting,
+      source_code_link: "https://github.com/AntonR-github/Fighting-Game",
+      live_demo_link: "https://fighting-game-ar.netlify.app/",
     },
     {
       name: "Portfolio App 2",
@@ -348,16 +371,16 @@ import {
       live_demo_link: "https://tictactoe-1u1.pages.dev/",
     },
     {
-      name: "Food EShop",
+      name: "EShop Admin Dashboard",
       description:
-        "Fullstack food EShop app, allowing users to order food, add to cart, checkout, login, register, and more. Created using Angular Typescript, Node.js, MongoDB, Paypal (only github code).",
+        "Admin Dashboard - Fullstack ECommerce app using MERN stack, providing a convenient and efficient solutions for managing an online shop.",
       tags: [
         {
-          name: "typescript",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "angular",
+          name: "react",
           color: "green-text-gradient",
         },
         {
@@ -365,54 +388,32 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: eshop,
-      source_code_link: "https://github.com/AntonR-github/EShop",
-      live_demo_link: "",
+      image: dashboard,
+      source_code_link: "https://github.com/AntonR-github/Eshop2-Dashboard",
+      live_demo_link: "https://eshop2-dashboard.onrender.com/",
     },
     {
-      name: "Fighting Game",
+      name: "EShop Server Side",
       description:
-        "Javascript Retro Style Fighting Game Using HTML Canvas and Animation Sprites",
+        "Server Side - Node.js server for EShop app, using MongoDB to store data (only GitHub Code).",
       tags: [
         {
           name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "html",
+          name: "node.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
-      image: fighting,
-      source_code_link: "https://github.com/AntonR-github/Fighting-Game",
-      live_demo_link: "https://fighting-game-ar.netlify.app/",
-    },
-    {
-      name: "Weather App",
-      description:
-        "Weather App created using Angular Typescript, OpenWeatherMap API",
-      tags: [
-        {
-          name: "typescript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "angular",
-          color: "green-text-gradient",
-        },
-        {
-          name: "api",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: weather,
-      source_code_link: "https://github.com/AntonR-github/Weather-App",
-      live_demo_link: "https://weather-app-by-antonr.web.app/",
-    },
+      image: api2,
+      source_code_link: "https://github.com/AntonR-github/Eshop2-API",
+      live_demo_link: "",
+    }
   ];
   
   export { services, technologies, projects, experiences };
