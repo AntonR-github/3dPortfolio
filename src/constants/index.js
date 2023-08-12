@@ -305,28 +305,6 @@ import {
       live_demo_link: "https://fighting-game-ar.netlify.app/",
     },
     {
-      name: "Portfolio App 2",
-      description:
-        "Portfolio App to showcase projects, Created using React Javascript, Sanity CMS.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sanity",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: portfolio2,
-      source_code_link: "https://github.com/AntonR-github/Personal-portfolio",
-      live_demo_link: "https://antonr-portfolio2.netlify.app/",
-    },
-    {
       name: "Calculator App",
       description:
         "Calculator App created using React Reducer",
@@ -370,50 +348,6 @@ import {
       source_code_link: "https://github.com/AntonR-github/TicTacToe",
       live_demo_link: "https://tictactoe-1u1.pages.dev/",
     },
-    {
-      name: "EShop Admin Dashboard",
-      description:
-        "Admin Dashboard - Fullstack ECommerce app using MERN stack, providing a convenient and efficient solutions for managing an online shop.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: dashboard,
-      source_code_link: "https://github.com/AntonR-github/Eshop2-Dashboard",
-      live_demo_link: "https://eshop2-dashboard.onrender.com/",
-    },
-    {
-      name: "EShop Server Side",
-      description:
-        "Server Side - Node.js server for EShop app, using MongoDB to store data (only GitHub Code).",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "node.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: api2,
-      source_code_link: "https://github.com/AntonR-github/Eshop2-API",
-      live_demo_link: "",
-    }
   ];
   
   export { services, technologies, projects, experiences };
